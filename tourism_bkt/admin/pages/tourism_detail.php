@@ -122,7 +122,8 @@ while($baris = pg_fetch_array($hasil3)){
 			  
 			        <div class="panel-body">
 			        	<center>
-                         <div id="mygallery1" data-skin="horizontal" data-width="480" data-height="280"  style="display: none;max-height:700px;overflow:hidden;">
+					<div id="mygallery1" data-skin="horizontal" data-width="350" data-height="200"  style="display: none;max-height:400px;overflow:hidden;">
+<!--                          <div class="html5gallery" style="max-height:700px;overflow:hidden;" data-skin="horizontal" data-width="350" data-height="200" data-resizemode="fit"> -->
 				    	<?php
 							$id=$_GET['id'];
 							$querysearch="SELECT gallery_tourism FROM tourism_gallery where id='$id'";
