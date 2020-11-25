@@ -58,14 +58,14 @@
       <!--LOADER-->
     <style>
     #loader {
-      border: 16px solid #f3f3f3;
+      /*border: 16px solid #f3f3f3;
       border-radius: 50%;
       border-top: 16px solid #3498db;
       width: 40px;
       margin: 5px;
       height: 40px;
       -webkit-animation: spin 2s linear infinite;
-      animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;*/
     }
 
     @-webkit-keyframes spin {
@@ -315,7 +315,8 @@
                             <div class="content" style="text-align:center;">
                            <!--  <div style="overflow-y: auto; overflow-x:auto; margin:15px; display:flex; justify-content:center"> -->
                               <center>
-                             <div id="mygallery1" data-skin="horizontal" data-width="480" data-height="280"  style="display: none;max-height:700px;overflow:hidden;">
+                             <!-- <div id="mygallery1" data-skin="horizontal" data-width="480" data-height="280"  style="display: none;max-height:700px;overflow:hidden;"> -->
+                               <div class="html5gallery" style="max-height:700px;overflow:hidden;" data-skin="horizontal" data-width="350" data-height="230" data-resizemode="fit">  
 
                                  <?php
                                     $id=$_GET['idgallery'];
@@ -342,7 +343,7 @@
                                   ?>
                                           
                                 </div>
-                                <script>jQuery("#mygallery1").html5gallery();</script>
+                               <!--  <script>jQuery("#mygallery1").html5gallery();</script> -->
                                 </center>
                               <!-- </div>   -->
                             </div>
