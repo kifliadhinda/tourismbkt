@@ -2,6 +2,6 @@
 var ipServerHotel="http://gissurya.org/hotel_bkt/";
 var ipServerTourism="http://gissurya.org/tourism_bkt/";*/
 
-var ipServerAngkot="http://localhost/html_/angkot_bkt/";
-var ipServerHotel="http://localhost/html_/hotel_bkt/";
-var ipServerTourism="http://localhost/html_/tourism_bkt/";
+var ipServerAngkot="http://dhindakiflia-tourism.herokuapp.com//angkot_bkt/";
+var ipServerHotel="http://dhindakiflia-tourism.herokuapp.com/hotel_bkt/";
+var ipServerTourism="http://dhindakiflia-tourism.herokuapp.com/tourism_bkt/";
