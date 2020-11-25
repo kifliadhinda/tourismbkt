@@ -20,7 +20,7 @@ include("../../connect.php");?>
     <link href="../assets/css/style-responsive.css" rel="stylesheet">
 	  <script src="inc/script.js" type="text/javascript"></script>
 	  <link href="plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1TwYksj1uQg1V_5yPUZqwqYYtUIvidrY&libraries=drawing"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE&libraries=drawing"></script>
     <!-- https://maps.googleapis.com/maps/api/js?key=AIzaSyBNnzxae2AewMUN0Tt_fC3gN38goeLVdVE&sensor=true -->
     <script src="../assets/js/chart-master/Chart.js"></script>
     <link rel="stylesheet" type="text/css" href="../assets/js/bootstrap-fileupload/bootstrap-fileupload.css" />
