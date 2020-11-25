@@ -20,7 +20,7 @@ include("../../connect.php");?>
     <link href="../assets/css/style-responsive.css" rel="stylesheet">
 	  <script src="inc/script.js" type="text/javascript"></script>
 	  <link href="plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM2fDXHmGzCDmDBk3bdPIEjs6zwnI1kGQ&libraries=drawing"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpfxdQ0Ep_nieNjV64u4yXWeSFHAT4BE&libraries=drawing"></script>
     <script src="../assets/js/chart-master/Chart.js"></script>
     <link rel="stylesheet" type="text/css" href="../assets/js/bootstrap-fileupload/bootstrap-fileupload.css" />
     <link rel="stylesheet" type="text/css" href="../assets/js/bootstrap-datepicker/css/datepicker.css" />
@@ -32,7 +32,7 @@ include("../../connect.php");?>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <script src="../../config_public.js"></script>
-    <script src="../0.js"></script>
+    <script src="../peta17.js"></script>
     <style>
      
     .html5gallery-car-0 {
