@@ -2236,7 +2236,7 @@
               var lng2 = row.lng2;
               console.log(ids);
               route_angkot_1(id,color);
-              $('#table_kanan_angkot').append("<tr><td>"+destination+"</td><td><a role='button' class='btn btn-success fa fa-info' title='info' onclick='modal_angkot(\""+ids+"\")'></a></td><td><a style='margin-left:10px; padding:9px;' role='button' class='btn btn-success fa fa-taxi' title='angkot' onclick='clearangkot(modal_angkot);route_angkot(\""+lat2+"\",\""+lng2+"\",\""+lat+"\",\""+lng+"\",\""+ids+"\",\""+id+"\")'></a></td></tr>");         
+              $('#table_kanan_angkot').append("<tr><td>"+destination+"</td><td><a role='button' class='btn btn-success fa fa-info' title='info' onclick='modal_angkot(\""+ids+"\")'></a></td><td><a role='button' class='btn btn-success fa fa-taxi' title='angkot' onclick='clearangkot(modal_angkot);route_angkot(\""+lat2+"\",\""+lng2+"\",\""+lat+"\",\""+lng+"\",\""+ids+"\",\""+id+"\")'></a></td></tr>");         
             }               
         }});      
       }
@@ -2318,7 +2318,7 @@
               var lng2 = row.lng2;
               console.log(id);
               route_angkot_1(id,color);
-              $('#table_kanan_angkot').append("<tr><td>"+destination+"</td><td><a role='button' class='btn btn-success fa fa-info' title='info' onclick='modal_angkot(\""+ids+"\")'></a></td><td><a style='margin-left:10px; padding:9px;' role='button' class='btn btn-success fa fa-taxi' title='angkot' onclick='clearangkot();route_angkot(\""+lat2+"\",\""+lng2+"\",\""+lat+"\",\""+lng+"\",\""+ids+"\",\""+id+"\")'></a></td></tr>");         
+              $('#table_kanan_angkot').append("<tr><td>"+destination+"</td><td><a role='button' class='btn btn-success fa fa-info' title='info' onclick='modal_angkot(\""+ids+"\")'></a></td><td><a role='button' class='btn btn-success fa fa-taxi' title='angkot' onclick='clearangkot();route_angkot(\""+lat2+"\",\""+lng2+"\",\""+lat+"\",\""+lng+"\",\""+ids+"\",\""+id+"\")'></a></td></tr>");         
             }               
         }});      
       }
