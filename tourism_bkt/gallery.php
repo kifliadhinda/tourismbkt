@@ -23,7 +23,7 @@
     
  <!--  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
   <script type="text/javascript" src="html5gallery/html5gallery.js"></script>
-    <script src="peta16.js"></script>
+    <script src="peta17.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgclrR8QqACLDYcgLjsLd1RIZV9-V8Bpc&sensor=true"></script>
    
 
