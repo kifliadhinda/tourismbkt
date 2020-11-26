@@ -10,62 +10,34 @@
 
     <title>Bukittinggi's Tourism</title>
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
-      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
 
-<!--     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
- --><script type="text/javascript" src="html5gallery/html5gallery.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <!--external css-->
-     <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/css/zabuto_calendar.css">
     <link rel="stylesheet" type="text/css" href="assets/js/gritter/css/jquery.gritter.css" />
     <link rel="stylesheet" type="text/css" href="assets/lineicons/style.css">    
-    
-    <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/style-responsive.css" rel="stylesheet">
-
-    <!--  Slide -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   <!--  <style>
-    .mySlides {display:none}
-    .w3-left, .w3-right, .w3-badge {cursor:pointer}
-    .w3-badge {height:13px;width:13px;padding:0}
-    </style> -->
-   <!--  <script src="assets/js/chart-master/Chart.js"></script> -->
-
-   <!--  <script src="../config_public.js"></script> -->
-    <script src="peta17.js"></script>
+    
+ <!--  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+  <script type="text/javascript" src="html5gallery/html5gallery.js"></script>
+    <script src="peta16.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgclrR8QqACLDYcgLjsLd1RIZV9-V8Bpc&sensor=true"></script>
    
 
       <!--LOADER-->
     <style>
     #loader {
-      /*border: 16px solid #f3f3f3;
+      border: 16px solid #f3f3f3;
       border-radius: 50%;
       border-top: 16px solid #3498db;
       width: 40px;
       margin: 5px;
       height: 40px;
       -webkit-animation: spin 2s linear infinite;
-      animation: spin 2s linear infinite;*/
+      animation: spin 2s linear infinite;
     }
 
     @-webkit-keyframes spin {
@@ -315,8 +287,9 @@
                             <div class="content" style="text-align:center;">
                            <!--  <div style="overflow-y: auto; overflow-x:auto; margin:15px; display:flex; justify-content:center"> -->
                               <center>
-                             <!-- <div id="mygallery1" data-skin="horizontal" data-width="480" data-height="280"  style="display: none;max-height:700px;overflow:hidden;"> -->
-                               <div class="html5gallery" style="max-height:700px;overflow:hidden;" data-skin="horizontal" data-width="350" data-height="230" data-resizemode="fit">  
+
+                            <!--  <div id="my" data-skin="horizontal" data-width="480" data-height="280"  style="display: ;max-height:700px;overflow:hidden;"> -->
+                              <div class="html5gallery" data-autoslide="true" data-random="true" data-width="400" data-height="225" style="display:none;">
 
                                  <?php
                                     $id=$_GET['idgallery'];
@@ -327,8 +300,8 @@
                                         $nilai=$baris['gallery_tourism'];
                                         $xx++;
                                   ?>
-                                    <a href="../_foto/<?php echo $nilai; ?>"><img src="../_foto/<?php echo $nilai; ?>"></a>
-                                   <!--  <image src="../_foto/<?php echo $nilai; ?>" style="width:10%;"> -->
+                                 <!--    <a href="../_foto/<?php echo $nilai; ?>"><img src="../_foto/<?php echo $nilai; ?>"></a> -->
+                                  <image src="../_foto/<?php echo $nilai; ?>" style="width:10%;"> 
                                     
                                     <!--image src="../foto/tw002_a.jpg" style="width:10%;"-->
                                   <?php
@@ -343,10 +316,13 @@
                                   ?>
                                           
                                 </div>
-                               <!--  <script>jQuery("#mygallery1").html5gallery();</script> -->
+                                <script>jQuery(".html5gallery").html5gallery();</script>
+                                
                                 </center>
+                                
                               <!-- </div>   -->
                             </div>
+
                         </div>
                     </section>
                     
@@ -423,156 +399,7 @@
       
       </section>
 
-      <!-- <section id="main-content">
-        <section class="wrapper site-min-height">
-          <div class="row mt">
-            <div class="col-sm-6">
-                        <div class="white-panel pns">
-
-                          <header class="panel-heading" style="float:left">
-                            <label style="color: black; margin-right:20px">Google Map with Location List</label>
-                            <a class="btn btn-default" role="button" data-toggle="collapse" onclick="lokasimanual()" title=" Manual Position" ><i class="fa fa-location-arrow" style="color:black;"></i></a>
-                            <a class="btn btn-default" role="button" data-toggle="collapse" onclick="posisisekarang()" title="Current Position" style="margin-right:10px"   ><i class="fa fa-map-marker" style="color:black;"></i></a>
-                          </header>
-                          <div class="row">
-                             <div class="col-sm-6 col-xs-6"></div>
-                           </div>                        
-                           <div id="map" class="centered" style="height:260px">
-                           </div>
-                        </div>
-            </div>
-
-
-              <div class="col-sm-6" id="result">
-
-                <section class="panel">
-                    <div class="panel-body">
-                        <a class="btn btn-compose">Gallery</a>
-                        <div class="content" style="text-align:center;">
-                        <div class="html5gallery" style="max-height:700px;overflow:auto;" data-skin="horizontal" data-width="500" data-height="400" data-resizemode="fit">  
-                          <?php
-                        require '../connect.php';
-
-                        $id = $_GET["idgallery"];
-                        if (strpos($id,"H") !== false) {  //Hotel
-
-                          $querysearch  ="SELECT a.id, b.gallery_tourism FROM hotel as a left join tourism_gallery as b on a.id=b.id where a.id='$id' ";       
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_tourism']=='-')||($baris['gallery_tourism']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_tourism']."'><img src='../_foto/".$baris['gallery_tourism']."'></a>";
-                            }
-                          }
-                
-                        } elseif (strpos($id,"tw") !== false) {  //Tourism
-
-                          $querysearch  ="SELECT a.id, b.gallery_tourism FROM tourism as a left join tourism_gallery as b on a.id=b.id where a.id='$id' ";       
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_tourism']=='-')||($baris['gallery_tourism']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_tourism']."'><img src='../_foto/".$baris['gallery_tourism']."'></a>";
-                            }
-                          }
-
-                        } elseif (strpos($id,"SO") !== false) {  //Souvenir
-
-                          $querysearch  ="SELECT a.id, b.gallery_souvenir FROM souvenir as a left join souvenir_gallery as b on a.id=b.id where a.id='$id' ";       
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_souvenir']=='-')||($baris['gallery_souvenir']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_souvenir']."'><img src='../_foto/".$baris['gallery_souvenir']."'></a>";
-                            }
-                          }
-
-                        } elseif (strpos($id,"RM") !== false) {  //Kuliner
-
-                          $querysearch  ="SELECT a.id, b.gallery_culinary FROM culinary_place as a left join culinary_gallery as b on a.id=b.id where a.id='$id' ";       
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_culinary']=='-')||($baris['gallery_culinary']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_culinary']."'><img src='../_foto/".$baris['gallery_culinary']."'></a>";
-                            }
-                          }
-
-                        } elseif (strpos($id,"M") !== false) {  //Worship
-
-                          $querysearch  ="SELECT a.id, b.gallery_worship_place FROM worship_place as a left join worship_place_gallery as b on a.id=b.id where a.id='$id' ";       
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_worship_place']=='-')||($baris['gallery_worship_place']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_worship_place']."'><img src='../_foto/".$baris['gallery_worship_place']."'></a>";
-                            }
-                          }
-
-                        } elseif (strpos($id,"IK") !== false) {  //Industry
-
-                          $querysearch  ="SELECT a.id, b.gallery_industry FROM small_industry as a left join industry_gallery as b on a.id=b.id where a.id='$id' ";       
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_industry']=='-')||($baris['gallery_industry']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_industry']."'><img src='../_foto/".$baris['gallery_industry']."'></a>";
-                            }
-                          }
-
-                        } elseif (strpos($id,"R") !== false) {  //Restoran
-
-                          $querysearch  ="SELECT a.id, b.gallery_restaurant FROM restaurant as a left join restaurant_gallery as b on a.id=b.id where a.id='$id' ";       
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_restaurant']=='-')||($baris['gallery_restaurant']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_restaurant']."'><img src='../_foto/".$baris['gallery_restaurant']."'></a>";
-                            }
-                          }
-
-                        } else {  //Angkot
-
-                          $querysearch  ="SELECT a.id, b.gallery_angkot FROM angkot as a left join angkot_gallery as b on a.id=b.id where a.id='$id' ";  
-                          //echo "$querysearch";     
-                          echo "<script language='javascript'>alert('$querysearch');</script>";   
-                          $hasil=pg_query($querysearch);
-                          while($baris = pg_fetch_assoc($hasil)){
-                            if(($baris['gallery_angkot']=='-')||($baris['gallery_angkot']=='')){
-                              echo "<a href='../_foto/foto.jpg'><img src='../_foto/foto.jpg' ></a>";
-                            }
-                            else{
-                              echo "<a href='../_foto/".$baris['gallery_angkot']."'><img src='../_foto/".$baris['gallery_angkot']."'></a>";
-                            }
-                          }
-
-                        }
-                    ?>
-                                  
-                        </div>
-                        </div>
-                    </div>
-                </section>
-              </div>
-                      
-          </div>
-        </section>
-         
-      </section> -->
+     
 
       <footer class="site-footer">
           <div class="text-center">
