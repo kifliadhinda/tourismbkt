@@ -122,8 +122,7 @@ while($baris = pg_fetch_array($hasil3)){
 			  
 			        <div class="panel-body">
 			        	<center>
-					<div id="mygallery1" data-skin="horizontal" data-width="350" data-height="200"  style="display: none;max-height:400px;overflow:hidden;">
-<!--                          <div class="html5gallery" style="max-height:700px;overflow:hidden;" data-skin="horizontal" data-width="350" data-height="200" data-resizemode="fit"> -->
+                          <div class="html5gallery" data-autoslide="true" data-random="true" data-width="400" data-height="300" style="display:none;">
 				    	<?php
 							$id=$_GET['id'];
 							$querysearch="SELECT gallery_tourism FROM tourism_gallery where id='$id'";
@@ -147,7 +146,7 @@ while($baris = pg_fetch_array($hasil3)){
 				    		echo "nilai foto $nilai";
 						?>
 						</div>
-						 <script>jQuery("#mygallery1").html5gallery();</script>
+						  <script>jQuery(".html5gallery").html5gallery();</script>
 			        </div>	
 			        </center>			  					  
 			    </section>
