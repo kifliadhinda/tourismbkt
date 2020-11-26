@@ -333,8 +333,8 @@
 
                               <header class="panel-heading" style="float:left">
                                 <label style="color: black; margin-right:20px">Google Map with Location List</label>
-                                <a class="btn btn-success" role="button" data-toggle="collapse" onclick="lokasimanual()" title=" Manual Position"  style="margin-right:0px"><i class="fa fa-location-arrow" style="color:white;"></i></a>
-                                <a class="btn btn-success" role="button" data-toggle="collapse" onclick="posisisekarang()" title="Current Position" style="margin-right:0px"   ><i class="fa fa-map-marker" style="color:white;"></i></a>
+                                <a class="btn btn-success" role="button" data-toggle="collapse" onclick="posisisekarang()" title="Current Position"  style="margin-right:0px"><i class="fa fa-location-arrow" style="color:white;"></i></a>
+                                <a class="btn btn-success" role="button" data-toggle="collapse" onclick="lokasimanual()" title="Manual Position" style="margin-right:0px"   ><i class="fa fa-map-marker" style="color:white;"></i></a>
                                
                             <label id="tombol"><a class="btn btn-success" role="button" id="showlegenda" data-toggle="collapse" onclick="legenda()" title="Legend"style="margin-right:0px" ><i class="fa fa-eye"style="color:white;"></i></a></label>
                             
