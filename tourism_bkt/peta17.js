@@ -2221,9 +2221,9 @@
         $('#table_kanan_angkot').show();
         $('#table_kanan_angkot').empty();
         $('#table_kanan_angkot').append("<tr><th class='centered'>Destination</th><th class='centered' colspan='2'>Action</th></tr>");
-        console.log(server+'_detail_angkot.php?id_tourism='+id);
+        console.log(server+'_detail_angkot.php?id='+id);
         $.ajax({ 
-        url: server+'_detail_angkot.php?id_tourism='+id, data: "", dataType: 'json', success: function(rows) 
+        url: server+'_detail_angkot.php?id='+id, data: "", dataType: 'json', success: function(rows) 
         { 
             for (var i in rows){ 
               var row = rows[i];
