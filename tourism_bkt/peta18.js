@@ -1,5 +1,5 @@
         var map;
-        var server = "http://dhindakiflia-tourism.herokuapp.com/tourism_bkt/";
+        var server = "https://dhindakiflia-tourism.herokuapp.com/tourism_bkt/";
         var cekRadiusStatus = "off";   //RADIUS
         var circles = []; //RADIUS
         var rad; //RADIUS
